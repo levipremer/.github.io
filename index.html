@@ -13,7 +13,7 @@
 
     <header class="site-header" aria-label="Primary navigation">
       <nav class="nav container">
-        <a class="brand" href="#top" aria-label="Levi Premer home">
+        <a class="brand" href="#about" aria-label="Levi Premer home">
           <span class="brand-mark" aria-hidden="true">LP</span>
           <span>Levi Premer</span>
         </a>
@@ -29,62 +29,7 @@
     </header>
 
     <main id="main">
-      <section class="hero section" id="top">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Final-year PhD Candidate in Mechanical Engineering at Purdue University</p>
-            <h1>Practical control systems for grid-flexible residential electrification.</h1>
-            <p class="hero-text">
-              I develop practical control and optimization methods for electrified homes, with a focus on reducing infrastructure costs, improving grid flexibility, and maintaining occupant comfort.
-            </p>
-            <div class="hero-actions" aria-label="Primary actions">
-              <a class="button button-primary" href="#projects">View Projects</a>
-              <a class="button button-secondary" href="#cv">View CV</a>
-              <a class="button button-text" href="#contact">Contact</a>
-            </div>
-          </div>
-
-          <div class="energy-visual" aria-label="Residential energy control system diagram">
-            <div class="visual-header">
-              <span>Home Energy Supervisory Control</span>
-              <strong>Grid-aware</strong>
-            </div>
-            <div class="control-panel">
-              <div class="control-node main-node">
-                <span class="node-title">Optimizer</span>
-                <span class="node-meta">MPC + field data</span>
-              </div>
-              <div class="load-grid">
-                <div class="load-node">
-                  <span>HVAC</span>
-                  <strong>Comfort</strong>
-                </div>
-                <div class="load-node">
-                  <span>HPWH</span>
-                  <strong>Hot water</strong>
-                </div>
-                <div class="load-node">
-                  <span>EV</span>
-                  <strong>Charging</strong>
-                </div>
-                <div class="load-node">
-                  <span>Panel</span>
-                  <strong>Current limit</strong>
-                </div>
-              </div>
-            </div>
-            <div class="signal-row" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-light" id="about">
+      <section class="section section-light about-section" id="about">
         <div class="container split-section">
           <div>
             <p class="section-kicker">About</p>
@@ -98,9 +43,18 @@
             <p>
               I am a PhD candidate in Mechanical Engineering at Purdue University, affiliated with Ray W. Herrick Laboratories. My research focuses on supervisory control and optimization for residential electrification, with an emphasis on systems that can work in real homes.
             </p>
+            <div class="thesis-callout">
+              <span>Thesis focus</span>
+              <strong>Practical control systems for grid-flexible residential electrification.</strong>
+            </div>
             <p>
               My work combines modeling, optimization, experimental deployment, field data, building systems, and grid-interactive control. I am especially interested in translating research into practical tools for homes, utilities, and energy technology companies.
             </p>
+            <div class="section-actions" aria-label="Primary actions">
+              <a class="button button-primary" href="#projects">View Projects</a>
+              <a class="button button-secondary" href="#cv">View CV</a>
+              <a class="button button-text" href="#contact">Contact</a>
+            </div>
             <div class="pill-list" aria-label="Technical focus areas">
               <span>Model predictive control</span>
               <span>Supervisory control</span>
@@ -259,9 +213,9 @@
         <div class="container split-section">
           <div>
             <p class="section-kicker">Publications</p>
-            <h2>Selected publications and conference papers.</h2>
+            <h2>Highlighted Publications</h2>
             <p class="section-copy">
-              A broader publication list is available in the CV. Links to papers, preprints, and code can be added as publication pages become available.
+              Selected papers and conference publications spanning predictive control, residential electrification, heat pump water heaters, and supervisory HVAC control. A full publication list is available in the CV.
             </p>
           </div>
           <div class="publication-list">
@@ -289,6 +243,11 @@
               <p class="publication-meta">Building and Environment, 2024</p>
               <h3>Humidity-aware Model Predictive Control for Residential Air Conditioning: A Field Study</h3>
               <p>Pergantis E.N., Dhillon P., Premer L.R., et al.</p>
+            </article>
+            <article class="publication-item">
+              <p class="publication-meta">Applied Energy, 2025, in review</p>
+              <h3>Lessons Learned From Field Demonstrations of Model Predictive Control and Reinforcement Learning for Residential and Commercial HVAC: A Review</h3>
+              <p>Khabbazi A.J., Pergantis E.N., Premer L.D.R., et al.</p>
             </article>
           </div>
         </div>
