@@ -1,1 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Levi Premer develops practical control and optimization methods for grid-flexible residential electrification.">
+    <meta name="author" content="Levi Premer">
+    <title>Levi Premer | Control Systems for Electrified Homes</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
+    <header class="site-header" aria-label="Primary navigation">
+      <nav class="nav container">
+        <a class="brand" href="#top" aria-label="Levi Premer home">
+          <span class="brand-mark" aria-hidden="true">LP</span>
+          <span>Levi Premer</span>
+        </a>
+        <div class="nav-links" aria-label="Site sections">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#projects">Projects</a>
+          <a href="#publications">Publications</a>
+          <a href="#cv">CV</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Final-year PhD Candidate in Mechanical Engineering at Purdue University</p>
+            <h1>Practical control systems for grid-flexible residential electrification.</h1>
+            <p class="hero-text">
+              I develop practical control and optimization methods for electrified homes, with a focus on reducing infrastructure costs, improving grid flexibility, and maintaining occupant comfort.
+            </p>
+            <div class="hero-actions" aria-label="Primary actions">
+              <a class="button button-primary" href="#projects">View Projects</a>
+              <a class="button button-secondary" href="#cv">View CV</a>
+              <a class="button button-text" href="#contact">Contact</a>
+            </div>
+          </div>
+
+          <div class="energy-visual" aria-label="Residential energy control system diagram">
+            <div class="visual-header">
+              <span>Home Energy Supervisory Control</span>
+              <strong>Grid-aware</strong>
+            </div>
+            <div class="control-panel">
+              <div class="control-node main-node">
+                <span class="node-title">Optimizer</span>
+                <span class="node-meta">MPC + field data</span>
+              </div>
+              <div class="load-grid">
+                <div class="load-node">
+                  <span>HVAC</span>
+                  <strong>Comfort</strong>
+                </div>
+                <div class="load-node">
+                  <span>HPWH</span>
+                  <strong>Hot water</strong>
+                </div>
+                <div class="load-node">
+                  <span>EV</span>
+                  <strong>Charging</strong>
+                </div>
+                <div class="load-node">
+                  <span>Panel</span>
+                  <strong>Current limit</strong>
+                </div>
+              </div>
+            </div>
+            <div class="signal-row" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-light" id="about">
+        <div class="container split-section">
+          <div>
+            <p class="section-kicker">About</p>
+            <h2>Research at the intersection of controls, buildings, and deployment.</h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              I am a PhD candidate in Mechanical Engineering at Purdue University, affiliated with Ray W. Herrick Laboratories. My research focuses on supervisory control and optimization for residential electrification, with an emphasis on systems that can work in real homes.
+            </p>
+            <p>
+              My work combines modeling, optimization, experimental deployment, field data, building systems, and grid-interactive control. I am especially interested in translating research into practical tools for homes, utilities, and energy technology companies.
+            </p>
+            <div class="pill-list" aria-label="Technical focus areas">
+              <span>Model predictive control</span>
+              <span>Supervisory control</span>
+              <span>Residential electrification</span>
+              <span>Grid-interactive buildings</span>
+              <span>Field deployment</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Research Themes</p>
+            <h2>Making electrified homes cheaper, smarter, and more responsive.</h2>
+          </div>
+
+          <div class="theme-grid">
+            <article class="theme-card">
+              <span class="card-index">01</span>
+              <h3>Cost-Effective Residential Electrification</h3>
+              <p>Intelligent load coordination to help avoid unnecessary electrical service and panel upgrades while preserving comfort and service quality.</p>
+            </article>
+            <article class="theme-card">
+              <span class="card-index">02</span>
+              <h3>Predictive Control for Heat Pump Water Heaters</h3>
+              <p>MPC and minimal-sensing control strategies for energy and cost savings under time-varying electricity prices and hot water constraints.</p>
+            </article>
+            <article class="theme-card">
+              <span class="card-index">03</span>
+              <h3>Supervisory HVAC Control</h3>
+              <p>Comfort-aware and grid-aware supervisory control using predictive models, occupancy signals, and field demonstrations.</p>
+            </article>
+            <article class="theme-card">
+              <span class="card-index">04</span>
+              <h3>Grid-Flexible Homes</h3>
+              <p>Home energy management methods that coordinate EVs, batteries, PV, water heating, and flexible loads under utility and grid needs.</p>
+            </article>
+            <article class="theme-card theme-card-wide">
+              <span class="card-index">05</span>
+              <h3>DC Nanogrids and Vehicle-to-Home Systems</h3>
+              <p>Experimental infrastructure for future home energy architectures, including EV integration, DC systems, hardware-in-the-loop testing, and controllable residential loads.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-accent" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Projects</p>
+            <h2>Field-relevant systems work with clear deployment pathways.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-topline">
+                <span>Predictive control</span>
+                <span>Field testing</span>
+              </div>
+              <h3>Heat Pump Water Heater Predictive Control</h3>
+              <p>Developed and field-tested model predictive control strategies for heat pump water heaters to reduce energy cost while maintaining hot water availability.</p>
+              <ul>
+                <li>MPC and minimal sensing</li>
+                <li>Time-varying electricity prices</li>
+                <li>Practical deployment constraints</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span>Electrification</span>
+                <span>Panel limits</span>
+              </div>
+              <h3>Whole-Home Current Limiting</h3>
+              <p>Designed supervisory control strategies that coordinate major residential electric loads to keep total home current below panel limits, helping avoid costly electrical service upgrades.</p>
+              <ul>
+                <li>HVAC, HPWH, EV, and appliance coordination</li>
+                <li>Current constraints</li>
+                <li>Service upgrade avoidance</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span>HVAC</span>
+                <span>Comfort</span>
+              </div>
+              <h3>Supervisory HVAC Control</h3>
+              <p>Developed comfort-aware HVAC supervisory control methods that use predictive models and occupant preferences to coordinate energy use and comfort.</p>
+              <ul>
+                <li>Zone comfort and occupancy</li>
+                <li>Weather-aware prediction</li>
+                <li>Model predictive control</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span>Hardware</span>
+                <span>EV integration</span>
+              </div>
+              <h3>DC Nanogrid and EV Integration</h3>
+              <p>Contributed to experimental home energy infrastructure involving DC nanogrids, EV charging, vehicle-to-home systems, and controllable residential loads.</p>
+              <ul>
+                <li>DC systems</li>
+                <li>Vehicle-to-home power</li>
+                <li>Grid-flexibility experiments</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span>Data-driven</span>
+                <span>Robustness</span>
+              </div>
+              <h3>Data-Driven Control and Robustness</h3>
+              <p>Studied data-driven predictive control methods and robustness challenges for building energy systems under limited data and uncertain model quality.</p>
+              <ul>
+                <li>Predictor comparison</li>
+                <li>Monte Carlo analysis</li>
+                <li>Model quality under uncertainty</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="publications">
+        <div class="container split-section">
+          <div>
+            <p class="section-kicker">Publications</p>
+            <h2>Selected publications and conference papers.</h2>
+            <p class="section-copy">
+              A broader publication list is available in the CV. Links to papers, preprints, and code can be added as publication pages become available.
+            </p>
+          </div>
+          <div class="publication-list">
+            <article class="publication-item">
+              <p class="publication-meta">Energy Conversion &amp; Management, 2025</p>
+              <h3>Predictive Control Can Lower Barriers to Heat-pump Water Heater Adoption</h3>
+              <p>Premer L.D.R., et al.</p>
+            </article>
+            <article class="publication-item">
+              <p class="publication-meta">Applied Energy, 2025</p>
+              <h3>Protecting Residential Electrical Panels and Service Through Model Predictive Control: A Field Study</h3>
+              <p>Pergantis E.N., Premer L.D.R., et al.</p>
+            </article>
+            <article class="publication-item">
+              <p class="publication-meta">ASHRAE Transactions, 2025</p>
+              <h3>A Minimal-Sensing Predictive Control Strategy for Heat Pump Water Heaters: Field Insights from Cold Climate Operation</h3>
+              <p>Premer L.D.R., et al.</p>
+            </article>
+            <article class="publication-item">
+              <p class="publication-meta">8th International High Performance Buildings Conference at Purdue, 2024</p>
+              <h3>Field Demonstration of Predictive Heat Pump Water Heater Control</h3>
+              <p>Premer L.D.R., et al.</p>
+            </article>
+            <article class="publication-item">
+              <p class="publication-meta">Building and Environment, 2024</p>
+              <h3>Humidity-aware Model Predictive Control for Residential Air Conditioning: A Field Study</h3>
+              <p>Pergantis E.N., Dhillon P., Premer L.R., et al.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-light" id="cv">
+        <div class="container cv-layout">
+          <div>
+            <p class="section-kicker">CV</p>
+            <h2>A concise academic and professional record.</h2>
+            <p class="section-copy">
+              PhD candidate in Mechanical Engineering at Purdue University with field-tested research in predictive control, residential electrification, demand response, and building energy systems.
+            </p>
+            <a class="button button-primary" href="assets/docs/levi-premer-cv.docx">Download CV</a>
+          </div>
+          <div class="cv-detail-grid" aria-label="CV highlights">
+            <article>
+              <h3>Education</h3>
+              <p><strong>Purdue University</strong>, PhD in Mechanical Engineering, expected December 2026. Thesis: Leveraging Predictive Control to Improve the Value of Electric Residential Energy Systems.</p>
+              <p><strong>University of New Mexico</strong>, BS in Mechanical Engineering, May 2023.</p>
+            </article>
+            <article>
+              <h3>Research Experience</h3>
+              <p><strong>Ray W. Herrick Laboratories</strong>, Research Assistant, 2023-present. Field-deploying advanced control strategies for residential energy management, demand response, and lower-cost electrification.</p>
+              <p><strong>Karlsruhe Institute of Technology</strong>, Visiting Researcher, 2025. Data-driven modeling for aggregators and load-shifting potential in European housing stock.</p>
+              <p><strong>National Renewable Energy Laboratory</strong>, Intern, 2024. Electrical panel protection control, experiment design, scenario testing, and Home Assistant integration.</p>
+            </article>
+            <article>
+              <h3>Recognition</h3>
+              <p>National Science Foundation Graduate Research Fellowship, ASHRAE Grant-in-Aid Scholarship, Winkelman Fellowship, Best Paper Award at the 8th International High Performance Buildings Conference, and 3rd place in the Morgan Business Concept Competition.</p>
+            </article>
+            <article>
+              <h3>Skills</h3>
+              <p>Demand response design, model predictive control, convex optimization, time-series forecasting, reinforcement learning, MATLAB, Python, Axon, SolidWorks, and EES.</p>
+            </article>
+            <article>
+              <h3>Patents</h3>
+              <p>Pending Purdue Research Foundation inventions on smart controls for residential electrical distribution protection and predictive control for water heating.</p>
+            </article>
+            <article>
+              <h3>Mentoring and Outreach</h3>
+              <p>Mentored 10 undergraduate and master's students and supported STEM outreach, renewable energy education, and engineering student success programs.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2>Open to industry research, deep-tech, national lab, and academic collaborations.</h2>
+            <p class="contact-copy">
+              For research discussions, collaboration, speaking invitations, or professional opportunities, the best starting point is email.
+            </p>
+          </div>
+          <div class="contact-links" aria-label="Contact details and profile links">
+            <a class="contact-link" href="mailto:lreyespr@purdue.edu">
+              <span>Email</span>
+              <strong>lreyespr@purdue.edu</strong>
+            </a>
+            <a class="contact-link" href="https://scholar.google.com/citations?hl=en&amp;user=VKqwFYIAAAAJ">
+              <span>Google Scholar</span>
+              <strong>scholar.google.com/citations</strong>
+            </a>
+            <a class="contact-link" href="https://www.linkedin.com/in/levi-reyes-premer-8485121b1">
+              <span>LinkedIn</span>
+              <strong>levi-reyes-premer-8485121b1</strong>
+            </a>
+            <a class="contact-link" href="https://github.com/levipremer">
+              <span>GitHub</span>
+              <strong>github.com/levipremer</strong>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
